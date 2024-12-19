@@ -1,4 +1,6 @@
+import Image from "next/image"
 
+import Logo from "../assets/images/b_day.JPG";
 
 export default function Home() {
   return (
@@ -14,6 +16,10 @@ export default function Home() {
     </div>
     <div className="cardInside">
         <h3 className="back">HAPPY BIRTHDAY kishang!</h3>
+  <div className="mx-auto">
+  <Image src={Logo} height={80} width={80} alt="Birthday" />
+
+  </div>
         <p>Dear Friend,</p>
         <p>
             Happy birthday!! I hope your day is filled with lots of love and
