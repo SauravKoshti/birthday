@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="birthdayCard">
     <div className="cardFront">
-        <h3 className="happy">HAPPY BIRTHDAY Love!</h3>
+        <h3 className="happy">HAPPY BIRTHDAY Meghna!</h3>
         <div className="balloons">
             <div className="balloonOne" />
             <div className="balloonTwo" />
@@ -15,17 +15,16 @@ export default function Home() {
         </div>
     </div>
     <div className="cardInside">
-        <h3 className="back">HAPPY BIRTHDAY kishang!</h3>
+        <h3 className="back">HAPPY BIRTHDAY Meghna Di!</h3>
   <div className="mx-auto">
   <Image src={Logo} height={80} width={80} alt="Birthday" />
-
   </div>
-        <p>Dear Friend,</p>
-        <p>
+        <p>Dear Friend,</p> 
+        <p> 
             Happy birthday!! I hope your day is filled with lots of love and
             laughter! May all of your birthday wishes come true.
         </p>
-        <p className="name">Pawan</p>
+        {/* <p className="name">Pawan</p> */}
     </div>
 </div>
   );
